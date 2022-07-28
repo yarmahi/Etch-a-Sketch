@@ -1,0 +1,99 @@
+.board{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    background-color: aliceblue;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, .1), 0 0 0 2px rgb(255,255,255),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+.flex-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(96,79,252,0.082),white);
+
+}
+.board:hover{
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.titel{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: rgb(12, 79, 12);
+    font-size:36px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.button{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+button{
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.2s; 
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+.blackbtn{
+    background-color: black;
+    color: aliceblue;
+}
+.whitebtn{
+    background-color: aliceblue;
+    color: black;
+}
+.randombtn{
+    background:linear-gradient(0.25turn,#f65cfc,#ebfBe1,#5B3cf6) ;
+}
+.randombtn:hover{
+    background: linear-gradient(0.25turn,#5B3cf6, #f65cfc,#ebfBe1);
+}
+input{
+    width:80px;
+    height: 30px;
+    
+    font-size: 20px;
+}
+.error{
+    display: none;
+    font-size: 20px;
+    color: red;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
